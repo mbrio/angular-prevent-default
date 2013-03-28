@@ -1,6 +1,6 @@
 {
   "name": "angular-prevent-default",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Prevents the default action of an anchor when clicked.",
   "main": "js/angular-prevent-default.js",
   "repository": {

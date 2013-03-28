@@ -6,4 +6,10 @@
 
 (function () {
   'use strict';
+
+  angular
+    // Include prevent-default
+    .module('pdtest', ['prevent-default'])
+    .controller('link', function ($scope) {
+    });
 }());
