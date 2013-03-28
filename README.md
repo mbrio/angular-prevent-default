@@ -6,7 +6,7 @@ http://qloo.github.com/angular-prevent-default/
 ## Stability
 
 ```
-Stability: 4 - Stable
+Stability: 5 - Locked
 ```
 
 For more information you can view the Node.js [stability index](http://nodejs.org/api/all.html#all_stability_index).
