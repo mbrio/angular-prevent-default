@@ -1,6 +1,6 @@
 {
   "name": "angular-prevent-default",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./js/angular-prevent-default.js",
   "ignore": [
     ".gitignore",
