@@ -10,6 +10,9 @@
   "keywords": [
     "angular"
   ],
+  "scripts": {
+    "test": "grunt test"
+  },
   "author": "Michael Diolosa <michael.diolosa@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
