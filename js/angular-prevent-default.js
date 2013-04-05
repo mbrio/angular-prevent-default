@@ -11,7 +11,14 @@
   // ---------------
   // Fix issue where clicks on links in angular templates do not allow for the
   // cancellation of a link's default action.
-  angular.module('prevent-default', []).directive('preventDefault', function () {
+  angular.module('prevent-default', [])
+
+  // Properties
+  // ----------
+  // Version
+  .constant('version', '1.0.3')
+
+  .directive('preventDefault', function () {
     return {
       restrict: 'A',
       link: function (scope, element, attrs) {

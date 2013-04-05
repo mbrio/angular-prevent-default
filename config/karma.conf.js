@@ -13,6 +13,9 @@ files = [
   'test/unit/*.spec.js'
 ];
 
+preprocessors = {
+  'js/*.js': 'coverage'
+};
 
 // list of files to exclude
 exclude = [];
@@ -20,15 +23,7 @@ exclude = [];
 
 // test results reporter to use
 // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-reporters = ['progress'];
-
-
-// web server port
-port = 9876;
-
-
-// cli runner port
-runnerPort = 9100;
+reporters = ['progress', 'coverage'];
 
 
 // enable / disable colors in the output (reporters and logs)
