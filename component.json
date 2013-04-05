@@ -4,6 +4,7 @@
   "main": "./js/angular-prevent-default.js",
   "ignore": [
     ".gitignore",
+    ".travis.yml",
     "package.json",
     "server.js",
     "Gruntfile.js",

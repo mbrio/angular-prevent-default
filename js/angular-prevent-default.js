@@ -8,7 +8,7 @@
   'use strict';
 
   // prevent-default
-  // ---------------
+  // ===============
   angular.module('prevent-default', [])
 
   // Properties
@@ -16,7 +16,7 @@
   // Version
   .constant('version', '1.0.3')
 
-  // preventDefault Directive
+  // Directives
   // ------------------------
   // Fix issue where clicks on links in angular templates do not allow for the
   // cancellation of a link's default action.
