@@ -92,7 +92,7 @@ exports = module.exports = function (grunt) {
     var child = grunt.util.spawn({
       cmd: path.resolve('./node_modules/.bin/docco'),
       grunt: false,
-      args: ['js/angular-prevent-default.js']
+      args: ['README.md', 'js/angular-prevent-default.js']
     }, function (error, result, code) {
       grunt.log.ok('Generated documentation at ./docs/');
       done();

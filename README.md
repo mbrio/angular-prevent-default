@@ -3,7 +3,8 @@
 # AngularJS Prevent Default Module
 
 Prevents the default action of an anchor when clicked.  
-http://qloo.github.com/angular-prevent-default/
+http://qloo.github.io/angular-prevent-default/  
+https://github.com/qloo/angular-prevent-default/
 
 ## Stability
 

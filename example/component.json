@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "dependencies": {
     "jquery": "~1.9.1",
-    "angular": "~1.0.5",
-    "angular-mocks": "~1.0.5"
+    "angular": "~1.0.6",
+    "angular-mocks": "git://github.com/angular/angular.js.git"
   }
 }
