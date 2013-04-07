@@ -2,7 +2,7 @@
 
 <html>
 <head>
-  <title>angular-prevent-default.js</title>
+  <title>README.md</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
   <link rel="stylesheet" media="all" href="docco.css" />
@@ -11,11 +11,32 @@
   <div id="container">
     <div id="background"></div>
     
+      <ul id="jump_to">
+        <li>
+          <a class="large" href="javascript:void(0);">Jump To &hellip;</a>
+          <a class="small" href="javascript:void(0);">+</a>
+          <div id="jump_wrapper">
+          <div id="jump_page">
+            
+              
+              <a class="source" href="README.html">
+                README.md
+              </a>
+            
+              
+              <a class="source" href="angular-prevent-default.html">
+                angular-prevent-default.js
+              </a>
+            
+          </div>
+        </li>
+      </ul>
+    
     <ul class="sections">
         
           <li id="title">
               <div class="annotation">
-                  <h1>angular-prevent-default.js</h1>
+                  <h1>README.md</h1>
               </div>
           </li>
         
@@ -27,125 +48,47 @@
               <div class="pilwrap ">
                 <a class="pilcrow" href="#section-1">&#182;</a>
               </div>
-              <p>Prevents the default action of an anchor when clicked.<br>Copyright (C) 2013 Qloo Inc., Michael Diolosa <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#109;&#x69;&#x63;&#x68;&#97;&#101;&#108;&#46;&#x64;&#x69;&#x6f;&#108;&#x6f;&#115;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#109;&#x69;&#x63;&#x68;&#97;&#101;&#108;&#46;&#x64;&#x69;&#x6f;&#108;&#x6f;&#115;&#97;&#x40;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a><br>License: MIT</p>
+              <p><a href="https://travis-ci.org/qloo/angular-prevent-default"><img src="https://travis-ci.org/qloo/angular-prevent-default.png" alt="Build Status"></a></p>
+<h1>AngularJS Prevent Default Module</h1>
+<p>Prevents the default action of an anchor when clicked.<br><a href="http://qloo.github.io/angular-prevent-default/">http://qloo.github.io/angular-prevent-default/</a><br><a href="https://github.com/qloo/angular-prevent-default/">https://github.com/qloo/angular-prevent-default/</a></p>
+<h2>Stability</h2>
+<pre><code>Stability: 5 - Locked</code></pre>
+<p>For more information you can view the Node.js <a href="http://nodejs.org/api/all.html#all_stability_index">stability index</a>.</p>
+<h2>Build</h2>
+<p>To install all the necessary dependencies for the the example you&#39;ll need to run the following commands:</p>
+<pre><code>$ npm install -g grunt-cli &amp;&amp; npm install &amp;&amp; grunt bootstrap</code></pre>
+<p>If you have problems with <a href="http://gruntjs.com/">Grunt</a> you may need to <a href="http://gruntjs.com/getting-started">uninstall a previously installed version</a>, you may also need to run the <code>grunt-cli</code> installation using <code>sudo</code>.</p>
+<p>This will ensure that all of the necessary node and bower modules are installed, documentation is built, and the example has been bootstrapped.</p>
+<h2>Web Server for the Example Application</h2>
+<p>You can run the test server with the following command:</p>
+<pre><code>$ grunt server</code></pre>
+<h2>Tests</h2>
+<p>It is important that you have already run the <code>grunt bootstrap</code> task before testing.</p>
+<pre><code>grunt test</code></pre>
+<h3>Unit</h3>
+<pre><code>grunt test:unit</code></pre>
+<h3>End to End</h3>
+<pre><code>grunt test:e2e</code></pre>
+<h3>Continuous Integration Unit</h3>
+<pre><code>grunt cont:unit</code></pre>
+<h3>Continuous Integration e2e</h3>
+<pre><code>grunt cont:e2e</code></pre>
+<h2>More Grunt Tasks</h2>
+<p>To LINT the JS:</p>
+<pre><code>grunt lint</code></pre>
+<p>To run unit tests and LINT the JS</p>
+<pre><code>grunt check</code></pre>
+<p>Build documentation:</p>
+<pre><code>grunt doc</code></pre>
+<p>Cleanup:</p>
+<pre><code>grunt clean</code></pre>
+<p>Lint, documentation, bootstrap, and test:</p>
+<pre><code>grunt</code></pre>
+<h2>License</h2>
+<p>Copyright (c) 2013 Qloo Inc., Michael Diolosa <a href="&#x6d;&#97;&#105;&#108;&#x74;&#x6f;&#x3a;&#91;&#109;&#105;&#99;&#104;&#x61;&#101;&#108;&#46;&#100;&#105;&#111;&#108;&#111;&#115;&#97;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;&#x5d;&#40;&#109;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x6d;&#x69;&#99;&#x68;&#97;&#x65;&#108;&#46;&#100;&#105;&#x6f;&#x6c;&#x6f;&#x73;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;&#41;">&#91;&#109;&#105;&#99;&#104;&#x61;&#101;&#108;&#46;&#100;&#105;&#111;&#108;&#111;&#115;&#97;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;&#x5d;&#40;&#109;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x6d;&#x69;&#99;&#x68;&#97;&#x65;&#108;&#46;&#100;&#105;&#x6f;&#x6c;&#x6f;&#x73;&#97;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;&#41;</a></p>
+<p>This library is licensed under the <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
 
             </div>
-            
-            <div class="content"><div class='highlight'><pre><span class="comment">/*global angular:true, browser: true */</span>
-
-(<span class="function"><span class="keyword">function</span> <span class="params">()</span> {</span>
-  <span class="string">'use strict'</span>;</pre></div></div>
-            
-        </li>
-        
-        
-        <li id="section-2">
-            <div class="annotation">
-              
-              <div class="pilwrap for-h1">
-                <a class="pilcrow" href="#section-2">&#182;</a>
-              </div>
-              <h1>prevent-default</h1>
-
-            </div>
-            
-        </li>
-        
-        
-        <li id="section-3">
-            <div class="annotation">
-              
-              <div class="pilwrap ">
-                <a class="pilcrow" href="#section-3">&#182;</a>
-              </div>
-              
-            </div>
-            
-            <div class="content"><div class='highlight'><pre>  angular.module(<span class="string">'prevent-default'</span>, [])</pre></div></div>
-            
-        </li>
-        
-        
-        <li id="section-4">
-            <div class="annotation">
-              
-              <div class="pilwrap for-h2">
-                <a class="pilcrow" href="#section-4">&#182;</a>
-              </div>
-              <h2>Properties</h2>
-
-            </div>
-            
-        </li>
-        
-        
-        <li id="section-5">
-            <div class="annotation">
-              
-              <div class="pilwrap ">
-                <a class="pilcrow" href="#section-5">&#182;</a>
-              </div>
-              <p>Version</p>
-
-            </div>
-            
-            <div class="content"><div class='highlight'><pre>  .constant(<span class="string">'version'</span>, <span class="string">'1.0.3'</span>)</pre></div></div>
-            
-        </li>
-        
-        
-        <li id="section-6">
-            <div class="annotation">
-              
-              <div class="pilwrap for-h2">
-                <a class="pilcrow" href="#section-6">&#182;</a>
-              </div>
-              <h2>Directives</h2>
-
-            </div>
-            
-        </li>
-        
-        
-        <li id="section-7">
-            <div class="annotation">
-              
-              <div class="pilwrap ">
-                <a class="pilcrow" href="#section-7">&#182;</a>
-              </div>
-              <p>Fix issue where clicks on links in angular templates do not allow for the
-cancellation of a link&#39;s default action.</p>
-
-            </div>
-            
-            <div class="content"><div class='highlight'><pre>  .directive(<span class="string">'preventDefault'</span>, <span class="function"><span class="keyword">function</span> <span class="params">()</span> {</span>
-    <span class="keyword">return</span> {
-      restrict: <span class="string">'A'</span>,
-      link: <span class="function"><span class="keyword">function</span> <span class="params">(scope, element, attrs)</span> {</span>
-        element.bind(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> <span class="params">(event)</span> {</span></pre></div></div>
-            
-        </li>
-        
-        
-        <li id="section-8">
-            <div class="annotation">
-              
-              <div class="pilwrap ">
-                <a class="pilcrow" href="#section-8">&#182;</a>
-              </div>
-              <p>I assume due to a bug in AngularJS, we have to call both
-<code>preventDefault</code> and <code>stopPropagation</code> for the default link action
-to be cancelled.</p>
-
-            </div>
-            
-            <div class="content"><div class='highlight'><pre>          event.preventDefault();
-          event.stopPropagation();
-        });
-      }
-    };
-  });
-}());</pre></div></div>
             
         </li>
         
