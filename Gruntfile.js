@@ -107,7 +107,7 @@ exports = module.exports = function (grunt) {
     child.stderr.pipe(process.stderr);
   });
 
-  grunt.registerTask('doc', ['docs'])
+  grunt.registerTask('doc', ['docs']);
 
   // Bootstrap example
   grunt.registerTask('bootstrap-example', 'Bootstrap example', function () {
